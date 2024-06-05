@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Editing & UI Design Tutorials</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="=style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1> Learn Photo Editing and UI Design</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <div class="container">
+                <a class="navbar-brand" href="#">Tutorial Site</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>    
+            </div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="lessons/photo-editing.html">Photo Editing</a></li> 
+                <li class="nav-item"><a class="nav-link" href="lessons/ui-design.html">UI Design</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main class="container my-4">
+        <section>
+            <h2>Welcome to the Tutorial Site</h2>
+            <p>Here you can learn how to edit photos and designs user interfaces with stepp-by-step tutorials.</p>
+        </section>
+        <!-- Sign Up Form -->
+        <section>
+            <h2>Sign Up</h2>
+            <form id="signUpForm">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-control">
+                    <label for="password">password:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password">
+                </div>
+                <button type= "submit" class="btn btn-primary"> Sign Up</button>
+            </form>
+        </section>
+        <!-- Modal Buttonand Modal-->
+        <button id="openModalButton" class="btn btn-info">Open Modal</button>
+        <div id="myModal" class="modal" style="display:none;">
+             <div class="modal-content">
+                 <span id="closeModalButton" class="close">&times;</span>
+             </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 your Name</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
